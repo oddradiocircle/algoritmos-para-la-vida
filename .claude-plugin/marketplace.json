@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Heurísticas y conceptos de ciencias de la computación para decisiones cotidianas.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "./skills/algoritmos-para-la-vida"
       ],
       "description": "Ayuda a comparar, priorizar, buscar, experimentar y coordinar decisiones cotidianas.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

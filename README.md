@@ -46,13 +46,14 @@ conversación o desde un agente que cargue skills:
 
 Claude Desktop permite cargar un skill como un archivo `.zip`:
 
-1. Descarga este repositorio desde [GitHub](https://github.com/oddradiocircle/algoritmos-para-la-vida/archive/refs/heads/main.zip).
-2. Dentro de la descarga, localiza la carpeta
-   `skills/algoritmos-para-la-vida/` y comprímela como un ZIP independiente.
-   En macOS usa **Comprimir** desde Finder; en Windows usa **Comprimir en ZIP**
+1. Descarga el [ZIP del release v0.2.0](https://github.com/oddradiocircle/algoritmos-para-la-vida/releases/download/v0.2.0/algoritmos-para-la-vida-skill.zip).
+2. Si prefieres preparar el archivo desde el repositorio, descarga este
+   [ZIP de GitHub](https://github.com/oddradiocircle/algoritmos-para-la-vida/archive/refs/heads/main.zip), localiza la carpeta
+   `skills/algoritmos-para-la-vida/` y comprímela como un ZIP independiente. En
+   macOS usa **Comprimir** desde Finder; en Windows usa **Comprimir en ZIP**
    desde el Explorador de archivos.
 3. En Claude Desktop abre **Customize → Skills → + → Create skill → Upload a
-   skill** y selecciona ese ZIP.
+   skill** y selecciona el ZIP.
 
 El ZIP debe conservar la carpeta del skill y contener `SKILL.md` dentro de
 ella. Si no ves la sección **Skills**, puede que la función todavía no esté
@@ -77,7 +78,7 @@ si tu cuenta o espacio de trabajo tiene disponible la función **Skills**:
 1. Abre **Skills** desde la barra lateral —en algunas cuentas aparece dentro de
    **Plugins**—.
 2. Selecciona **Create → Upload from your computer**.
-3. Sube el mismo ZIP preparado para Claude Desktop.
+3. Descarga el [ZIP del release v0.2.0](https://github.com/oddradiocircle/algoritmos-para-la-vida/releases/download/v0.2.0/algoritmos-para-la-vida-skill.zip) y súbelo.
 
 La documentación oficial no describe una instalación directa desde la URL de
 GitHub escribiendo una instrucción en el chat. Si no aparece **Skills**, la

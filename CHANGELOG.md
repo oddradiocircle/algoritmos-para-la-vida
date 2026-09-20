@@ -6,10 +6,18 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ## [Unreleased]
 
+Los cambios posteriores a esta versión se registrarán aquí.
+
+## [0.2.0] — 2026-09-20
+
+Actualización de distribución e instalación para agentes y aplicaciones de
+escritorio.
+
 ### Añadido
 
 - Instrucciones de instalación para Claude Desktop, ChatGPT, Hermes Desktop,
   Claude Code, Hermes Agent, Codex y otros agentes compatibles.
+- ZIP universal para cargar el skill en Claude Desktop y ChatGPT.
 - Integración opcional como marketplace de Claude Code mediante
   `.claude-plugin/marketplace.json`.
 - Nota de inspiración y atribución al libro *Algorithms to Live By*, de Brian
@@ -37,5 +45,6 @@ Primera publicación pública de **Algoritmos para la vida**.
 - README con instrucciones de instalación, ejemplos y límites de uso.
 - Licencia MIT.
 
-[Unreleased]: https://github.com/oddradiocircle/algoritmos-para-la-vida/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/oddradiocircle/algoritmos-para-la-vida/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/oddradiocircle/algoritmos-para-la-vida/releases/tag/v0.2.0
 [0.1.0]: https://github.com/oddradiocircle/algoritmos-para-la-vida/releases/tag/v0.1.0
