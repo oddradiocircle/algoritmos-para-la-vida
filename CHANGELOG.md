@@ -6,7 +6,14 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ## [Unreleased]
 
-Aquí se registrarán los cambios que todavía no formen parte de una versión publicada.
+### Añadido
+
+- Instrucciones de instalación para Claude Desktop, ChatGPT, Hermes Desktop,
+  Claude Code, Hermes Agent, Codex y otros agentes compatibles.
+- Integración opcional como marketplace de Claude Code mediante
+  `.claude-plugin/marketplace.json`.
+- Nota de inspiración y atribución al libro *Algorithms to Live By*, de Brian
+  Christian y Tom Griffiths.
 
 ## [0.1.0] — 2026-09-20
 

@@ -1,0 +1,22 @@
+{
+  "name": "algoritmos-para-la-vida",
+  "owner": {
+    "name": "oddradiocircle"
+  },
+  "metadata": {
+    "description": "Heurísticas y conceptos de ciencias de la computación para decisiones cotidianas.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "algoritmos-para-la-vida",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/algoritmos-para-la-vida"
+      ],
+      "description": "Ayuda a comparar, priorizar, buscar, experimentar y coordinar decisiones cotidianas.",
+      "version": "0.1.0"
+    }
+  ]
+}
