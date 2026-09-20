@@ -27,6 +27,9 @@ npx skills add oddradiocircle/algoritmos-para-la-vida --skill algoritmos-para-la
 También puedes instalarlo desde este repositorio con cualquier herramienta de
 agentes compatible con el formato Agent Skills.
 
+Puedes consultar el [historial de cambios](CHANGELOG.md) para ver qué trae cada
+versión.
+
 ## Qué encontrarás
 
 ```text
