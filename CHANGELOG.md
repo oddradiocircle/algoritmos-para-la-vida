@@ -6,7 +6,10 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ## [Unreleased]
 
-Los cambios posteriores a esta versión se registrarán aquí.
+### Cambiado
+
+- Simplificadas las instrucciones de instalación y priorizada la ruta estándar
+  de `npx skills`.
 
 ## [0.2.0] — 2026-09-20
 

@@ -47,28 +47,11 @@ conversación o desde un agente que cargue skills:
 Claude Desktop permite cargar un skill como un archivo `.zip`:
 
 1. Descarga el [ZIP del release v0.2.0](https://github.com/oddradiocircle/algoritmos-para-la-vida/releases/download/v0.2.0/algoritmos-para-la-vida-skill.zip).
-2. Si prefieres preparar el archivo desde el repositorio, descarga este
-   [ZIP de GitHub](https://github.com/oddradiocircle/algoritmos-para-la-vida/archive/refs/heads/main.zip), localiza la carpeta
-   `skills/algoritmos-para-la-vida/` y comprímela como un ZIP independiente. En
-   macOS usa **Comprimir** desde Finder; en Windows usa **Comprimir en ZIP**
-   desde el Explorador de archivos.
-3. En Claude Desktop abre **Customize → Skills → + → Create skill → Upload a
+2. En Claude Desktop abre **Customize → Skills → + → Create skill → Upload a
    skill** y selecciona el ZIP.
 
-El ZIP debe conservar la carpeta del skill y contener `SKILL.md` dentro de
-ella. Si no ves la sección **Skills**, puede que la función todavía no esté
-disponible para tu cuenta o espacio de trabajo.
-
-Si usas la pestaña **Code** de la aplicación de Claude Desktop, también puedes
-instalar este repositorio como marketplace:
-
-```text
-/plugin marketplace add oddradiocircle/algoritmos-para-la-vida
-/plugin install algoritmos-para-la-vida@algoritmos-para-la-vida
-```
-
-Consulta la [guía oficial para usar skills en Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-y la [documentación de marketplaces de Claude Code](https://code.claude.com/docs/en/plugin-marketplaces).
+Si no ves la sección **Skills**, puede que la función todavía no esté disponible
+para tu cuenta o espacio de trabajo.
 
 ### ChatGPT — Mac o Windows
 
@@ -91,117 +74,44 @@ Hermes Desktop tiene una sección **Skills** para explorar e instalar skills del
 catálogo disponible:
 
 1. Abre **Skills**.
-2. Busca el skill en el catálogo.
+2. Busca el skill.
 3. Selecciona **Install**.
-
-La aplicación comparte perfiles, sesiones y skills con Hermes Agent. Para
-instalar directamente este repositorio de GitHub, usa el comando de Hermes CLI
-que aparece más abajo. La documentación de Hermes Desktop no describe un campo
-para pegar una URL de GitHub en el panel de Skills.
 
 Consulta la [documentación de Hermes Desktop](https://hermes-agent.nousresearch.com/docs/user-guide/desktop/).
 
-## Instalación desde la terminal
+## Instalación estándar
 
-Estas opciones son para agentes que permiten instalar skills mediante comandos.
-No necesitas usarlas si vas a cargar el ZIP en Claude Desktop o ChatGPT.
-
-### Instalación general con `skills.sh`
-
-El comando instala el skill en el proyecto actual:
-
-```bash
-npx skills add oddradiocircle/algoritmos-para-la-vida --skill algoritmos-para-la-vida
-```
-
-Para una instalación global —disponible en tus proyectos— añade `--global` y
-elige el agente con `--agent`.
-
-### Claude Code
+Para agentes de terminal, la ruta recomendada es [`npx skills`](https://www.skills.sh/):
 
 ```bash
 npx skills add oddradiocircle/algoritmos-para-la-vida \
   --skill algoritmos-para-la-vida \
-  --agent claude-code \
   --global
 ```
 
-Para instalarlo solo en el proyecto actual, omite `--global`. Consulta la
-[documentación de skills de Claude Code](https://code.claude.com/docs/en/skills).
+Esto instala el skill para tus proyectos. Para instalarlo solo en el proyecto
+actual, omite `--global`. Si necesitas elegir un agente compatible, añade
+`--agent <identificador>`.
 
-### Hermes Agent
+### Hermes Agent CLI
 
-En Hermes, el comando sin `-p` usa el perfil activo. Para el perfil
-predeterminado:
+Hermes Agent todavía no figura entre los destinos publicados por `skills.sh`.
+Si usas su CLI, instala el skill con su comando nativo:
 
 ```bash
-hermes profile use default
 hermes skills install oddradiocircle/algoritmos-para-la-vida/skills/algoritmos-para-la-vida
 ```
 
-Para instalarlo en un perfil específico:
+Consulta la [guía de skills de Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/).
 
-```bash
-hermes profile create mi-perfil
-hermes -p mi-perfil skills install oddradiocircle/algoritmos-para-la-vida/skills/algoritmos-para-la-vida
+### Alternativa: marketplace de Claude
+
+En Claude Code, puedes instalar el marketplace con:
+
+```text
+/plugin marketplace add oddradiocircle/algoritmos-para-la-vida
+/plugin install algoritmos-para-la-vida@algoritmos-para-la-vida
 ```
-
-Si quieres dejar ese perfil como el predeterminado para las siguientes
-sesiones:
-
-```bash
-hermes profile use mi-perfil
-```
-
-Comprueba la instalación con:
-
-```bash
-hermes skills list --source hub
-hermes skills check
-```
-
-Consulta la [guía de skills de Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/)
-y la [guía de perfiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles/).
-
-### Codex
-
-```bash
-npx skills add oddradiocircle/algoritmos-para-la-vida \
-  --skill algoritmos-para-la-vida \
-  --agent codex \
-  --global
-```
-
-Si no aparece de inmediato, reinicia Codex.
-
-## Otras herramientas compatibles
-
-`skills.sh` permite dirigir la instalación a otros agentes. Usa un identificador
-por vez:
-
-```bash
-npx skills add oddradiocircle/algoritmos-para-la-vida \
-  --skill algoritmos-para-la-vida \
-  --agent cursor \
-  --global
-```
-
-Algunos identificadores habituales son:
-
-| Herramienta | Identificador para `--agent` |
-|---|---|
-| Cursor | `cursor` |
-| Windsurf | `windsurf` |
-| Cline | `cline` |
-| Roo Code | `roo` |
-| Goose | `goose` |
-| OpenCode | `opencode` |
-| GitHub Copilot | `github-copilot` |
-
-Sustituye `cursor` por el identificador de la herramienta que uses. Revisa la
-[lista actual de agentes de skills.sh](https://www.skills.sh/docs/cli), porque
-los nombres y destinos pueden cambiar. Si una herramienta no aparece en esa
-lista, consulta su documentación para saber si admite el formato Agent Skills.
 
 ## Qué encontrarás
 
