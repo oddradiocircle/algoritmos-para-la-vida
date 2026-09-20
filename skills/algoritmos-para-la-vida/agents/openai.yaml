@@ -1,0 +1,5 @@
+interface:
+  display_name: "Algoritmos para la vida"
+  short_description: "Compara opciones y aclara decisiones cotidianas"
+  brand_color: "#2563EB"
+  default_prompt: "Usa $algoritmos-para-la-vida para analizar esta decisión."
