@@ -1,24 +1,33 @@
-# Algorithms for Life
+# Algoritmos para la vida
 
-Un skill de agente para usar heurísticas y conceptos de ciencias de la
-computación al tomar decisiones cotidianas.
+[![skills.sh](https://img.shields.io/badge/skills.sh-compatible-2563EB?style=flat-square)](https://skills.sh/)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-2563EB?style=flat-square)](LICENSE)
 
-No decide por la persona. Ayuda a comparar opciones, priorizar, buscar,
-experimentar y coordinar con lenguaje claro, supuestos explícitos, incertidumbre
-visible y puntos de revisión.
+Hay decisiones que no necesitan una fórmula perfecta, sino una forma más clara
+de mirarlas.
+
+**Algoritmos para la vida** es un skill de agente que lleva heurísticas y
+conceptos de ciencias de la computación a decisiones cotidianas: elegir entre
+varias opciones, dejar de buscar, ordenar tareas, probar un hábito, cuidar la
+atención o revisar una regla que no está dando el resultado esperado.
+
+No decide por ti. Te ayuda a ver qué estás tratando de lograr, qué información
+tienes, qué estás suponiendo y qué paso pequeño podrías dar ahora. También hace
+visibles la incertidumbre, los límites y el momento en que conviene volver a
+revisar la decisión.
 
 ## Instalación
 
-Con [`skills.sh`](https://skills.sh/):
+Instálalo con [`skills.sh`](https://skills.sh/):
 
 ```bash
 npx skills add oddradiocircle/algoritmos-para-la-vida --skill algoritmos-para-la-vida
 ```
 
-El skill también puede instalarse desde el repositorio con la herramienta de
-agentes que soporte el formato Agent Skills.
+También puedes instalarlo desde este repositorio con cualquier herramienta de
+agentes compatible con el formato Agent Skills.
 
-## Contenido
+## Qué encontrarás
 
 ```text
 skills/algoritmos-para-la-vida/
@@ -32,22 +41,32 @@ skills/algoritmos-para-la-vida/
 └── templates/analisis-caso.md
 ```
 
-El catálogo incluye elección y parada, tiempo y atención, aprendizaje y
-exploración, y relaciones y recursos. Las referencias avanzadas no se usan
-como fórmulas universales. Las decisiones médicas, jurídicas, financieras, de
-vivienda, empleo y otras decisiones de alto impacto requieren verificación y
-apoyo profesional apropiados.
+El catálogo recorre cuatro territorios que suelen mezclarse en la vida real:
 
-## Ejemplos de uso
+- **Elegir y parar:** cuándo seguir buscando y cuándo una opción ya es suficiente.
+- **Tiempo y atención:** cómo ordenar tareas, proteger la concentración y soltar
+  carga que ya no sirve.
+- **Aprendizaje y exploración:** cuánto conviene probar algo nuevo y cuánto
+  confiar en lo que ya funciona.
+- **Relaciones y recursos:** cómo cooperar, repartir recursos y revisar las
+  reglas que producen ciertos comportamientos.
+
+Las referencias más técnicas aparecen con sus condiciones y límites. No son
+fórmulas universales. En decisiones médicas, jurídicas, financieras, de
+vivienda, empleo, seguridad u otros asuntos de alto impacto, hace falta
+verificar la información vigente y buscar el apoyo profesional adecuado.
+
+## Algunos ejemplos
 
 - «Tengo varias opciones de vivienda y un plazo corto. ¿Cómo dejo de comparar?»
-- «Tengo cinco tareas con fechas distintas. ¿Qué criterio uso para ordenarlas?»
+- «Tengo cinco tareas con duraciones y fechas distintas. ¿Qué criterio uso para
+  ordenarlas?»
 - «Quiero probar dos hábitos sin abandonar lo que ya funciona. ¿Cómo diseño un
   experimento pequeño?»
 
 ## Qué no hace
 
-- No decide por la persona ni ejecuta acciones irreversibles.
+- No decide por ti ni ejecuta acciones irreversibles.
 - No inventa precios, disponibilidad, normas, evidencia ni probabilidades.
 - No sustituye asesoría médica, jurídica, financiera u otra asesoría profesional.
 - No convierte una heurística en una garantía de resultado óptimo.
