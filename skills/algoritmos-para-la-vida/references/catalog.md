@@ -13,7 +13,7 @@ pero no garantiza el mejor resultado.
 - **Información necesaria:** datos que cambian la recomendación.
 - **Supuestos:** condiciones que deben revisarse.
 - **Límites y riesgos:** cuándo puede fallar o causar daño.
-- **Fuentes:** índices de `references/foundation.md`, donde se identifica cada
+- **Fuentes:** índices de `references/sources.md`, donde se identifica cada
   referencia técnica y su uso dentro del skill.
 
 ## Taxonomía

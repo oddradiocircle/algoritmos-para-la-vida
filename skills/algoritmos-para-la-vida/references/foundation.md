@@ -57,32 +57,14 @@ asimetrías de poder o un entorno que cambia.
 7. En decisiones de alto impacto, verifica la información actual y busca apoyo
    profesional apropiado.
 
-## Referencias técnicas y de contexto
+## Fuentes públicas
 
-Las etiquetas numéricas usadas en las fichas corresponden a esta lista:
+Las etiquetas numéricas usadas en las fichas corresponden a la bibliografía
+normalizada de [`sources.md`](sources.md). Las referencias secundarias sirven
+para contexto y explicación; las afirmaciones formales deben contrastarse con
+la fuente primaria correspondiente. Para resultados de reemplazo de caché puede
+consultarse también L. A. Bélády, *A Study of Replacement Algorithms for a
+Virtual-Storage Computer*, [IEEE](https://ieeexplore.ieee.org/abstract/document/5388441).
 
-- **[1]** Stanford Computer Science, *A Guided Tour of Chapter 15: Multi-Armed Bandits: Exploration versus Exploitation*.
-- **[2]** NYU Computer Science, *Algorithms and Everyday Life*.
-- **[3]** Engineering for Data Science, *Algorithms to Live By*.
-- **[4]** Summrize, *Algorithms to Live By by Brian Christian Book Summary*.
-- **[10]** 80,000 Hours, entrevista a Brian Christian.
-- **[11]** Henrik Singmann et al., *Full-Information Optimal-Stopping Problems: Providing People with the Optimal Policy does not Improve Performance*.
-- **[12]** Thoughtful Technologist, *Overfitting... Echo Chambers*.
-- **[13]** Cambridge, *Optimization and Control*.
-- **[14]** Wikipedia en español, *Problema de la secretaria*.
-- **[15]** Aprende Machine Learning, *Overfitting y underfitting*.
-- **[18]** Wikipedia, *Secretary problem*.
-- **[19]** IsMy.net, *Shortest Processing Time*.
-- **[20]** Vivian Qu, *Simulated annealing: a life framework*.
-- **[22]** Microsoft Learn, *The UCB1 Algorithm for Multi-Armed Bandit Problems*.
-- **[23]** Matthijs Braspenning, *The Art of Scheduling*.
-- **[24]** DZone, *The Fatal Flaws of Modern Algorithms*.
-- **[25]** Atlantis Press, *The Review of Cooperation Mechanism of Repeated Game*.
-- **[26]** Bohrium, *The Wisdom of Forgetting... LRU*.
-- **[27]** Brera y Fu, *The satisficing secretary problem: when closed-form solutions meet simulated annealing*.
-- **[28]** Aionlinecourse, *Upper Confidence Bound (UCB) Algorithm*.
-- **[29]** Wikipedia, *Vickrey auction*.
-
-Las fuentes secundarias sirven para contexto y explicación. Las afirmaciones
-sobre salud, derecho, finanzas, seguridad, empleo, vivienda u otros asuntos de
-alto impacto requieren fuentes actuales y especializadas.
+Las afirmaciones sobre salud, derecho, finanzas, seguridad, empleo, vivienda u
+otros asuntos de alto impacto requieren fuentes actuales y especializadas.

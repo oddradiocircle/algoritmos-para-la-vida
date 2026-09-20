@@ -27,7 +27,8 @@ skills/algoritmos-para-la-vida/
 ├── references/
 │   ├── catalog.md
 │   ├── evals.md
-│   └── foundation.md
+│   ├── foundation.md
+│   └── sources.md
 └── templates/analisis-caso.md
 ```
 
