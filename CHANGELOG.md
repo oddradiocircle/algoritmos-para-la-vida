@@ -8,6 +8,10 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ### Cambiado
 
+- Reorganizado el README alrededor de entender, instalar, probar y profundizar.
+- Añadidos enlaces directos al ZIP, al skill y al catálogo.
+- Documentadas las rutas de instalación para ChatGPT, Claude, Hermes y agentes
+  compatibles con `skills.sh`.
 - Simplificadas las instrucciones de instalación y priorizada la ruta estándar
   de `npx skills`.
 
